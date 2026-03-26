@@ -27,11 +27,12 @@ public class LongestCommonPrefix_14 {
         sc.nextLine();
         
         String[] strs = new String[n];
+        
         System.out.println("Enter the strings:");
         for (int i = 0; i < n; i++) {
             strs[i] = sc.nextLine();
         }
-        System.out.println("Longest common prefix: " + longestCommonPrefix(strs));
+        System.out.println("Longest common prefix : "+ longestCommonPrefix(strs));
         sc.close();
     }
 }
