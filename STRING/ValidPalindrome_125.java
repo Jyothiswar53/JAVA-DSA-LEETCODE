@@ -19,7 +19,6 @@ public class ValidPalindrome_125 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the string: ");
         String input = sc.nextLine();
 
