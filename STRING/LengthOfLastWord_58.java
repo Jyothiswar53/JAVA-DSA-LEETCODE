@@ -3,7 +3,6 @@ package STRING;
 import java.util.Scanner;
 
 public class LengthOfLastWord_58 {
-
     public static int lengthOfLastWord(String s) {
 
         int length = 0;
@@ -12,7 +11,6 @@ public class LengthOfLastWord_58 {
         while (i >= 0 && s.charAt(i) == ' ') {
             i--;
         }
-
         while (i >= 0 && s.charAt(i) != ' ') {
             length++;
             i--;
