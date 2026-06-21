@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class RomanToInteger_13 {
     public static int romanToInt(String s) {
+        
         Map<Character, Integer> romanMap = new HashMap<>();
-
         romanMap.put('I', 1);
         romanMap.put('V', 5);
         romanMap.put('X', 10);
@@ -27,10 +27,8 @@ public class RomanToInteger_13 {
             } else {
                 total += currentValue;
             }
-
             prevValue = currentValue;
         }
-
         return total;
     }
     public static void main(String[] args) {
