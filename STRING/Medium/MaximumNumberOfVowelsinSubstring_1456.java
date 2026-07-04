@@ -24,7 +24,6 @@ public class MaximumNumberOfVowelsinSubstring_1456 {
                 currCount++;
             }
         }
-
         maxCount = currCount;
 
         for (int i = k; i < s.length(); i++){
